@@ -1,0 +1,84 @@
+*
+{
+    border: 1px solid red;
+}
+
+.main-container
+{
+    background-color: rgb(196, 13, 104);
+    height: 2000px;
+}
+
+.header-container
+{
+    display: flex;
+    background-color: white;
+    height: 60px;
+    padding: 20px;
+    gap: 300px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header-container > div:nth-child(1)
+{
+    flex: 1 1 auto;
+    height: 50px;
+}
+
+.header-container > div:nth-child(2)
+{
+    flex: 1 1 400px;
+    height: 50px;
+}
+
+.unordered-list
+{
+    
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    list-style: none;
+}
+
+.unordered-list li
+{
+    flex: 1;
+}
+.unordered-list a
+{
+    text-decoration: none;
+}
+
+.body-container
+{
+    padding: 50px;
+    background-color: #9bbdf6;
+    height: 1000px;
+}
+
+.title h1
+{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.content-container
+{
+    display: flex;
+    background-color: white;
+    height: 100%;
+}
+
+.content-container > div:nth-child(1)
+{
+    flex: 1;
+}
+
+.content-container > div:nth-child(2)
+{
+    flex: 1;
+}
